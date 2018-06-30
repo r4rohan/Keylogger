@@ -31,7 +31,7 @@ class Timer
             while(repeat_count--)
                 SleepAndRun();
     }
-    public:
+    public: 
         static const long Infinite=-1L; // we will use it to state that the func will be called an infinite amt of time so timer would work until we stop it manually
         Timer(){} //use inorder to create timer as global variable
 
